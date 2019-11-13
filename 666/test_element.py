@@ -2,6 +2,7 @@ from time import sleep
 
 import autoit
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 
 def test_input(driver):
@@ -85,3 +86,29 @@ def test_upload2(driver):
     autoit.control_set_text("打开", "Edit1", "c:\\Users\guoya\\Desktop\\178847431362956833.png")
     sleep(2)
     autoit.control_click("打开", "Button1")
+#窗口切换
+def test_windows(driver):
+    driver.get("http://192.168.1.128:8082/xuepl/demo.html")
+    sleep(2)
+
+    dang_dang = driver.find_element_by_link_text("当当")
+    actions = ActionChains(driver)
+    actions.key_down(Keys.CONTROL).click(dang_dang).key_up(Keys.CONTROL).perform()
+    sleep(2)
+    jd = driver.find_element_by_link_text("京东")
+    actions = ActionChains(driver)
+    actions.key_down(Keys.CONTROL).click(jd).key_up(Keys.CONTROL).perform()
+    sleep(2)
+    dn = driver.find_element_by_partial_link_text("度娘")
+    actions = ActionChains(driver)
+    actions.key_down(Keys.CONTROL).click(dn).key_up(Keys.CONTROL).perform()
+    sleep(2)
+
+    # 获取所有窗口的句柄
+    handles = driver.window_handles
+    for h in handles:
+        # 根据窗口句柄，切换窗口
+        driver.switch_to.window(h)
+        sleep(2)
+        if driver.title.__contains__("京东"):
+            break
