@@ -1,16 +1,22 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+import os
 from time import sleep
 
 import pytest
 from selenium import webdriver
 
 
+
+
+
 @pytest.fixture(scope='session')
 def driver():
     # 打开浏览器
-    driver = webdriver.Chrome("../chromer/chromedriver.exe")
-    sleep(1)
-    # 最大化浏览器窗口
+    driver = webdriver.Chrome(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../chromer/chromedriver.exe'))
+    # 调整浏览器窗口大小
     driver.maximize_window()
-    sleep(1)
+    driver.implicitly_wait(10) # 设置等待时长5秒
+    # 浏览器全局设置，一般在浏览器启动之后设置一次，终生有效
     yield driver
     driver.quit()
