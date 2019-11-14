@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-CJUE796",
+    "children" : [ {
+      "name" : "2128-MainThread",
+      "children" : [ {
+        "name" : "标题",
+        "uid" : "932ee3dbc93de003",
+        "parentUid" : "0877e7878173879c7f82229de23a208f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573723681705,
+          "stop" : 1573723686622,
+          "duration" : 4917
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0877e7878173879c7f82229de23a208f"
+    } ],
+    "uid" : "acaed0a941c014b576b0089f787b7dfa"
+  } ]
+}

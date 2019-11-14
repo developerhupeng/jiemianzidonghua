@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "一级分类",
+    "children" : [ {
+      "name" : "二级分类",
+      "children" : [ {
+        "name" : "标题",
+        "uid" : "932ee3dbc93de003",
+        "parentUid" : "560ccbde2485abbb8b96f32834cecc1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573723681705,
+          "stop" : 1573723686622,
+          "duration" : 4917
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "560ccbde2485abbb8b96f32834cecc1d"
+    } ],
+    "uid" : "b43b0d09b52eceafbd530074a57fd6e2"
+  } ]
+}

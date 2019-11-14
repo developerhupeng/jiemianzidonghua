@@ -1,0 +1,163 @@
+{
+  "uid" : "932ee3dbc93de003",
+  "name" : "标题",
+  "fullName" : "666.test_allure#test_report",
+  "historyId" : "ac64eb99f0289cef487e076bc1637e51",
+  "time" : {
+    "start" : 1573723681705,
+    "stop" : 1573723686622,
+    "duration" : 4917
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1573723671360,
+      "stop" : 1573723681679,
+      "duration" : 10319
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开网页:http://ui.yansl.com/#/checkbox",
+      "time" : {
+        "start" : 1573723681705,
+        "stop" : 1573723681705,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击多选框://*[id=\"form\"]/form/div[1]/div/input[1]",
+      "time" : {
+        "start" : 1573723683263,
+        "stop" : 1573723683851,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "749cdc37f613f18b",
+        "name" : "c0e1f9dd-2faa-405f-bfa0-a79546e9b375-attachment.png",
+        "source" : "749cdc37f613f18b.png",
+        "type" : "image/png",
+        "size" : 32374
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击多选框://input[@value='2']",
+      "time" : {
+        "start" : 1573723684209,
+        "stop" : 1573723684538,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb81f06ba15e28b2",
+        "name" : "0e63416e-dbaa-40f4-b669-c8254efcd657-attachment.png",
+        "source" : "fb81f06ba15e28b2.png",
+        "type" : "image/png",
+        "size" : 32704
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1573723686623,
+      "stop" : 1573723690372,
+      "duration" : 3749
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "二级分类"
+  }, {
+    "name" : "feature",
+    "value" : "一级分类"
+  }, {
+    "name" : "parentSuite",
+    "value" : "666"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CJUE796"
+  }, {
+    "name" : "thread",
+    "value" : "2128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "666.test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "用例",
+    "url" : "http://www.baidu.com",
+    "type" : "test_case"
+  }, {
+    "name" : "bug",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "932ee3dbc93de003.json",
+  "parameterValues" : [ ]
+}

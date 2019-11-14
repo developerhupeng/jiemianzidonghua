@@ -1,0 +1,25 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "666",
+    "children" : [ {
+      "name" : "test_allure",
+      "children" : [ {
+        "name" : "标题",
+        "uid" : "932ee3dbc93de003",
+        "parentUid" : "3080958ef25ce94a27e540cb83bee04e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573723681705,
+          "stop" : 1573723686622,
+          "duration" : 4917
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3080958ef25ce94a27e540cb83bee04e"
+    } ],
+    "uid" : "04d7bdf15d48a8b99b545453d411280a"
+  } ]
+}

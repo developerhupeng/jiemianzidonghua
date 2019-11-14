@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "666.test_allure",
+    "children" : [ {
+      "name" : "标题",
+      "uid" : "932ee3dbc93de003",
+      "parentUid" : "bd31ce49b183731d1b22b1c7d9a393ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573723681705,
+        "stop" : 1573723686622,
+        "duration" : 4917
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "666.test_allure"
+  } ]
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "932ee3dbc93de003",
+  "name" : "标题",
+  "time" : {
+    "start" : 1573723681705,
+    "stop" : 1573723686622,
+    "duration" : 4917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
